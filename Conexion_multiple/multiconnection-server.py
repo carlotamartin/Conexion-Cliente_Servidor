@@ -30,7 +30,7 @@ def service_conn(key, mask):
 if __name__ == '__main__':
     host = socket.gethostname() # Esta función nos da el nombre de la máquina
     port = 12345
-    BUFFER_SIZE = 1024 # Usamos un número pequeño para tener una respuesta rápida 
+    BUFFER_SIZE = 1024 # Usamos un número pequeño para tener una respuesta rápida
     # Creamos un socket TCP
     socket_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # Configuramos el socket en modo de no-bloqueo
